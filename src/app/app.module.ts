@@ -30,6 +30,8 @@ import { BlockedComponent } from './components/common/blocked/blocked.component'
 import { HomeComponent } from './components/public/home/home.component';
 import { environment } from '../environments/environment';
 import { AppClientListComponent } from './components/public/app-client-list/app-client-list.component';
+import { RegisterComponent } from './components/public/register/register.component';
+import { LoginComponent } from './components/public/login/login.component';
 
 registerLocaleData(localeUk);
 
@@ -41,7 +43,9 @@ registerLocaleData(localeUk);
     NotFoundComponent,
     BlockedComponent,
     HomeComponent,
-    AppClientListComponent
+    AppClientListComponent,
+    RegisterComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

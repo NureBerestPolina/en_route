@@ -3,6 +3,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { BlockedComponent } from './components/common/blocked/blocked.component';
 import { NotFoundComponent } from './components/common/not-found/not-found.component';
 import { HomeComponent } from './components/public/home/home.component';
+import { LoginComponent } from './components/public/login/login.component';
+import { RegisterComponent } from './components/public/register/register.component';
 
 const routes: Routes = [
   {
@@ -15,8 +17,16 @@ const routes: Routes = [
   },
   {
     path: 'blocked',
-    component: BlockedComponent
+    component: BlockedComponent,
   },
+  {
+    path: 'login',
+    component: LoginComponent,
+  },
+  {
+    path: 'register',
+    component: RegisterComponent,
+  }
 ];
 
 @NgModule({
