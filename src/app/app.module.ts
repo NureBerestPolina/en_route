@@ -7,6 +7,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { ODataModule } from 'angular-odata';
 
+import { authInterceptorProviders as AuthInterceptorProviders } from './interceptors/auth.interceptor';
+
 import { LOCALE_ID } from '@angular/core';
 import { registerLocaleData } from '@angular/common';
 import localeUk from '@angular/common/locales/uk';
@@ -71,7 +73,7 @@ registerLocaleData(localeUk);
       }
     })
   ],
-  providers: [
+  providers: [ AuthInterceptorProviders,
     { provide: LOCALE_ID, useValue: 'en-US' }],
   bootstrap: [AppComponent]
 })

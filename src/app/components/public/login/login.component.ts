@@ -28,14 +28,14 @@ export class LoginComponent {
   onFormSubmit(): void {
     this.authService.login(this.model).subscribe({
       next: ({ token, refreshToken }) => {
-        // this.tokenStorage.saveToken(token);
-        // this.tokenStorage.saveRefreshToken(refreshToken);
+        this.tokenStorage.saveToken(token);
+        this.tokenStorage.saveRefreshToken(refreshToken);
 
-        // const user = this.tokenStorage.getUser();
-        // if (user) {
-        //   this.authService.setUser(user);
-        // }
-        this.authService.setUser(superAdminResponse);
+        const user = this.tokenStorage.getUser();
+        if (user) {
+          this.authService.setUser(user);
+        }
+        //this.authService.setUser(superAdminResponse);
 
         // redirect to Home page after login
         this.router.navigateByUrl('/');
