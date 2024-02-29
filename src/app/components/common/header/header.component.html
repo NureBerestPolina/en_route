@@ -49,7 +49,7 @@
 
             <ng-container *ngIf="user?.roles?.includes(role.OrganizationManager) && organization">
                 <a [routerLink]="['organization', organization.id, 'smartfridges-list']" class="btn btn-success ms-3" i18n>My pickup counters</a>
-                <a [routerLink]="['organization', organization.id, 'filials']" class="btn btn-success ms-3" i18n>My goods</a>
+                <a [routerLink]="['shopManagement', organization.id, 'assortment']" class="btn btn-success ms-3" i18n>My goods</a>
             </ng-container>
                      
              <button class="btn btn-outline-danger ms-3" (click)="onLogout()" i18n><i class="bi bi-person"></i>Log out</button>

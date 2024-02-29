@@ -34,6 +34,7 @@ import { environment } from '../environments/environment';
 import { AppClientListComponent } from './components/public/app-client-list/app-client-list.component';
 import { RegisterComponent } from './components/public/register/register.component';
 import { LoginComponent } from './components/public/login/login.component';
+import { AssortmentComponent } from './components/organizations/assortment/assortment.component';
 
 registerLocaleData(localeUk);
 
@@ -47,7 +48,8 @@ registerLocaleData(localeUk);
     HomeComponent,
     AppClientListComponent,
     RegisterComponent,
-    LoginComponent
+    LoginComponent,
+    AssortmentComponent
   ],
   imports: [
     BrowserModule,

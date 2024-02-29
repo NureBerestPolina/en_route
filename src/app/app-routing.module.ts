@@ -5,6 +5,7 @@ import { NotFoundComponent } from './components/common/not-found/not-found.compo
 import { HomeComponent } from './components/public/home/home.component';
 import { LoginComponent } from './components/public/login/login.component';
 import { RegisterComponent } from './components/public/register/register.component';
+import { AssortmentComponent } from './components/organizations/assortment/assortment.component';
 
 const routes: Routes = [
   {
@@ -26,6 +27,10 @@ const routes: Routes = [
   {
     path: 'register',
     component: RegisterComponent,
+  },
+  {
+    path: 'shopManagement/:organizationId/assortment',
+    component: AssortmentComponent,
   }
 ];
 
