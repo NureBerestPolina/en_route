@@ -24,6 +24,7 @@ import { MessagesModule } from 'primeng/messages';
 import { StyleClassModule } from 'primeng/styleclass';
 import { ButtonModule } from 'primeng/button';
 import { DropdownModule } from 'primeng/dropdown';
+import { CheckboxModule } from 'primeng/checkbox';
 
 import { AppComponent } from './app.component';
 import { FooterComponent } from './components/common/footer/footer.component';
@@ -36,6 +37,7 @@ import { AppClientListComponent } from './components/public/app-client-list/app-
 import { RegisterComponent } from './components/public/register/register.component';
 import { LoginComponent } from './components/public/login/login.component';
 import { AssortmentComponent } from './components/organizations/assortment/assortment.component';
+import { AddGoodComponent } from './components/organizations/add-good/add-good.component';
 
 
 registerLocaleData(localeUk);
@@ -51,7 +53,8 @@ registerLocaleData(localeUk);
     AppClientListComponent,
     RegisterComponent,
     LoginComponent,
-    AssortmentComponent
+    AssortmentComponent,
+    AddGoodComponent
   ],
   // ...
 
@@ -66,7 +69,8 @@ registerLocaleData(localeUk);
       InputTextareaModule,
       PasswordModule,
       RadioButtonModule,
-      DropdownModule, // Add DropdownModule here
+      DropdownModule, 
+      CheckboxModule,
       FieldsetModule,
       InputNumberModule,
       InputTextareaModule,
