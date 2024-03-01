@@ -15,6 +15,8 @@ import { GoodService } from '../../../services/organization/good.service';
 export class AssortmentComponent {
   organizationId?: string;
   goods$?: Observable<Good[]>;
+  selectedCategory: string = '';
+  uniqueCategories: string[] = [];
 
   organizationSubscription$?: Subscription;
   organization?: Organization | null;
@@ -29,7 +31,7 @@ export class AssortmentComponent {
 
   ngOnInit(): void {
     const organizationId = this.route.snapshot.paramMap.get('organizationId');
-
+    
     if (!organizationId) {
       this.router.navigateByUrl('/notFound');
       return;
@@ -49,6 +51,10 @@ export class AssortmentComponent {
       });
 
     this.goods$ = this.goodService.getAllOrganizationGoods(organizationId);
+    this.goods$.subscribe(goods => {
+      // Extract unique categories from goods
+      this.uniqueCategories = Array.from(new Set(goods.map(good => good.category.name)));
+    });
   }
 
   ngOnDestroy(): void {
@@ -61,5 +67,11 @@ export class AssortmentComponent {
     } else {
       return 'white';
     }
+  }
+
+  filterGoods(goods: Good[]): Good[] {
+    return goods.filter((good) =>
+      good.category.name.toLowerCase().includes(this.selectedCategory.toLowerCase())
+    );
   }
 }

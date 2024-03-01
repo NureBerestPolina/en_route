@@ -23,6 +23,7 @@ import { InputNumberModule } from 'primeng/inputnumber';
 import { MessagesModule } from 'primeng/messages';
 import { StyleClassModule } from 'primeng/styleclass';
 import { ButtonModule } from 'primeng/button';
+import { DropdownModule } from 'primeng/dropdown';
 
 import { AppComponent } from './app.component';
 import { FooterComponent } from './components/common/footer/footer.component';
@@ -35,6 +36,7 @@ import { AppClientListComponent } from './components/public/app-client-list/app-
 import { RegisterComponent } from './components/public/register/register.component';
 import { LoginComponent } from './components/public/login/login.component';
 import { AssortmentComponent } from './components/organizations/assortment/assortment.component';
+
 
 registerLocaleData(localeUk);
 
@@ -51,30 +53,33 @@ registerLocaleData(localeUk);
     LoginComponent,
     AssortmentComponent
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    BrowserAnimationsModule,
-    FormsModule,
-    HttpClientModule,
-    RouterModule,
-    InputTextModule,
-    InputTextareaModule,
-    PasswordModule,
-    RadioButtonModule,
-    FieldsetModule,
-    InputNumberModule,
-    InputTextareaModule,
-    ToastModule,
-    MessagesModule,
-    StyleClassModule,
-    ButtonModule,
-    ODataModule.forRoot({
-      config: {
-        serviceRootUrl: `${environment.apiBaseUrl}/odata/`
-      }
-    })
-  ],
+  // ...
+
+    imports: [
+      BrowserModule,
+      AppRoutingModule,
+      BrowserAnimationsModule,
+      FormsModule,
+      HttpClientModule,
+      RouterModule,
+      InputTextModule,
+      InputTextareaModule,
+      PasswordModule,
+      RadioButtonModule,
+      DropdownModule, // Add DropdownModule here
+      FieldsetModule,
+      InputNumberModule,
+      InputTextareaModule,
+      ToastModule,
+      MessagesModule,
+      StyleClassModule,
+      ButtonModule,
+      ODataModule.forRoot({
+        config: {
+          serviceRootUrl: `${environment.apiBaseUrl}/odata/`
+        }
+      })
+    ],
   providers: [ AuthInterceptorProviders,
     { provide: LOCALE_ID, useValue: 'en-US' }],
   bootstrap: [AppComponent]

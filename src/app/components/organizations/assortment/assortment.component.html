@@ -7,6 +7,16 @@
     </div>
 
     <ng-container *ngIf="goods$ | async as goods">
+
+        <!-- <select id="title" [(ngModel)]="selectedCategory">
+            <option value="">Select a category</option>
+            <option *ngFor="let good of goods" [value]="good.category.name">{{ good.category.name }}</option>
+        </select> -->
+
+        <p-dropdown [options]="uniqueCategories" [(ngModel)]="selectedCategory"  [showClear]="false" placeholder="Select a category"></p-dropdown>
+
+        <button class = "btn btn-outline-primary ml-1" (click)="selectedCategory = ''" i18n>Clear</button>
+
         <table class="table mt-3 table-bordered">
             <thead>
                 <tr>
@@ -22,7 +32,7 @@
                 </tr>
             </thead>
             <tbody>
-                <tr *ngFor="let good of goods" [ngStyle]="{'background': getStateColor(good.needsCooling)}">
+                <tr *ngFor="let good of filterGoods(goods)" [ngStyle]="{'background': getStateColor(good.needsCooling)}">
                     <td>{{good.name}}</td>
                     <td>{{good.category.name}}</td>
                     <td>{{good.description}}</td>
