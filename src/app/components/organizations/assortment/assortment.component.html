@@ -4,14 +4,10 @@
 
     <div class="d-flex justify-content-end mt-4">
         <a [routerLink]="['/shopManagement', organizationId, 'add-good']" class="btn btn-warning" i18n>Add good to my assortment</a>
+        <a [routerLink]="['/shopManagement', organizationId, 'add-producer']" class="ml-2 btn btn-outline-warning" i18n>Add a new producer</a>
     </div>
 
     <ng-container *ngIf="goods$ | async as goods">
-
-        <!-- <select id="title" [(ngModel)]="selectedCategory">
-            <option value="">Select a category</option>
-            <option *ngFor="let good of goods" [value]="good.category.name">{{ good.category.name }}</option>
-        </select> -->
 
         <p-dropdown [options]="uniqueCategories" [(ngModel)]="selectedCategory"  [showClear]="false" placeholder="Select a category"></p-dropdown>
 

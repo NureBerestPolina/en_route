@@ -8,6 +8,7 @@ import { RegisterComponent } from './components/public/register/register.compone
 import { AssortmentComponent } from './components/organizations/assortment/assortment.component';
 import { AddGoodComponent } from './components/organizations/add-good/add-good.component';
 import { EditGoodComponent } from './components/organizations/edit-good/edit-good.component';
+import { AddProducerComponent } from './components/organizations/add-producer/add-producer.component';
 
 const routes: Routes = [
   {
@@ -41,6 +42,10 @@ const routes: Routes = [
   {
     path: 'shopManagement/:organizationId/edit-good/:goodId',
     component: EditGoodComponent,
+  },
+  {
+    path: 'shopManagement/:organizationId/add-producer',
+    component: AddProducerComponent,
   },
 ];
 
