@@ -7,6 +7,7 @@ import { LoginComponent } from './components/public/login/login.component';
 import { RegisterComponent } from './components/public/register/register.component';
 import { AssortmentComponent } from './components/organizations/assortment/assortment.component';
 import { AddGoodComponent } from './components/organizations/add-good/add-good.component';
+import { EditGoodComponent } from './components/organizations/edit-good/edit-good.component';
 
 const routes: Routes = [
   {
@@ -36,7 +37,11 @@ const routes: Routes = [
   {
     path: 'shopManagement/:organizationId/add-good',
     component: AddGoodComponent,
-  }
+  },
+  {
+    path: 'shopManagement/:organizationId/edit-good/:goodId',
+    component: EditGoodComponent,
+  },
 ];
 
 @NgModule({

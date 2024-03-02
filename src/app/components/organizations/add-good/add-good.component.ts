@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { AddGood } from '../../../models/dtos/add-good.model';
+import { UpsertGood } from '../../../models/dtos/upsert-good.model';
 import { GoodService } from '../../../services/organization/good.service';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Producer } from '../../../models/producer.model';
@@ -14,7 +14,7 @@ import { CategoryService } from '../../../services/organization/category.service
   styleUrl: './add-good.component.css'
 })
 export class AddGoodComponent {
-  model: AddGood = {
+  model: UpsertGood = {
     name: '',
     description: '',
     measurementUnit: '',

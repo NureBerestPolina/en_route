@@ -38,6 +38,8 @@ import { RegisterComponent } from './components/public/register/register.compone
 import { LoginComponent } from './components/public/login/login.component';
 import { AssortmentComponent } from './components/organizations/assortment/assortment.component';
 import { AddGoodComponent } from './components/organizations/add-good/add-good.component';
+import { EditGoodComponent } from './components/organizations/edit-good/edit-good.component';
+import { AddProducerComponent } from './components/organizations/add-producer/add-producer.component';
 
 
 registerLocaleData(localeUk);
@@ -54,7 +56,9 @@ registerLocaleData(localeUk);
     RegisterComponent,
     LoginComponent,
     AssortmentComponent,
-    AddGoodComponent
+    AddGoodComponent,
+    EditGoodComponent,
+    AddProducerComponent
   ],
   // ...
 

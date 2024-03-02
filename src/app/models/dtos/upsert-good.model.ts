@@ -1,4 +1,4 @@
-export interface AddGood {
+export interface UpsertGood {
     name: string;
     description: string;
     measurementUnit: string;
