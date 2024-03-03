@@ -9,6 +9,7 @@ import { AssortmentComponent } from './components/organizations/assortment/assor
 import { AddGoodComponent } from './components/organizations/add-good/add-good.component';
 import { EditGoodComponent } from './components/organizations/edit-good/edit-good.component';
 import { AddProducerComponent } from './components/organizations/add-producer/add-producer.component';
+import { BackupsManagementComponent } from './components/sysadmin/backups-management/backups-management.component';
 
 const routes: Routes = [
   {
@@ -46,6 +47,10 @@ const routes: Routes = [
   {
     path: 'shopManagement/:organizationId/add-producer',
     component: AddProducerComponent,
+  },
+  {
+    path: 'admin/system-administration',
+    component: BackupsManagementComponent,
   },
 ];
 

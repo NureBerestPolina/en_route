@@ -40,6 +40,9 @@ import { AssortmentComponent } from './components/organizations/assortment/assor
 import { AddGoodComponent } from './components/organizations/add-good/add-good.component';
 import { EditGoodComponent } from './components/organizations/edit-good/edit-good.component';
 import { AddProducerComponent } from './components/organizations/add-producer/add-producer.component';
+import { CountersListComponent } from './components/organizations/counters-management/counters-list/counters-list.component';
+import { MakeInstallCounterRequestComponent } from './components/organizations/counters-management/make-install-counter-request/make-install-counter-request.component';
+import { BackupsManagementComponent } from './components/sysadmin/backups-management/backups-management.component';
 
 
 registerLocaleData(localeUk);
@@ -58,7 +61,10 @@ registerLocaleData(localeUk);
     AssortmentComponent,
     AddGoodComponent,
     EditGoodComponent,
-    AddProducerComponent
+    AddProducerComponent,
+    CountersListComponent,
+    MakeInstallCounterRequestComponent,
+    BackupsManagementComponent
   ],
   // ...
 
