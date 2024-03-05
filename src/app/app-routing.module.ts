@@ -10,6 +10,8 @@ import { AddGoodComponent } from './components/organizations/add-good/add-good.c
 import { EditGoodComponent } from './components/organizations/edit-good/edit-good.component';
 import { AddProducerComponent } from './components/organizations/add-producer/add-producer.component';
 import { BackupsManagementComponent } from './components/sysadmin/backups-management/backups-management.component';
+import { CountersListComponent } from './components/organizations/counters-management/counters-list/counters-list.component';
+import { MakeInstallCounterRequestComponent } from './components/organizations/counters-management/make-install-counter-request/make-install-counter-request.component';
 
 const routes: Routes = [
   {
@@ -35,6 +37,14 @@ const routes: Routes = [
   {
     path: 'shopManagement/:organizationId/assortment',
     component: AssortmentComponent,
+  },
+  {
+    path: 'shopManagement/:organizationId/counters',
+    component: CountersListComponent,
+  },
+  {
+    path: 'shopManagement/:organizationId/make-counter-installation-request',
+    component: MakeInstallCounterRequestComponent,
   },
   {
     path: 'shopManagement/:organizationId/add-good',

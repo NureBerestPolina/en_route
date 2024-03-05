@@ -48,7 +48,7 @@
              <span>{{user?.name}}</span>
 
             <ng-container *ngIf="user?.roles?.includes(role.OrganizationManager) && organization">
-                <a [routerLink]="['organization', organization.id, 'smartfridges-list']" class="btn btn-success ms-3" i18n>My pickup counters</a>
+                <a [routerLink]="['shopManagement', organization.id, 'counters']" class="btn btn-success ms-3" i18n>My pickup counters</a>
                 <a [routerLink]="['shopManagement', organization.id, 'assortment']" class="btn btn-success ms-3" i18n>My goods</a>
             </ng-container>
                      
