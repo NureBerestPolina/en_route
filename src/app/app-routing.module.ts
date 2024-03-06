@@ -12,6 +12,7 @@ import { AddProducerComponent } from './components/organizations/add-producer/ad
 import { BackupsManagementComponent } from './components/sysadmin/backups-management/backups-management.component';
 import { CountersListComponent } from './components/organizations/counters-management/counters-list/counters-list.component';
 import { MakeInstallCounterRequestComponent } from './components/organizations/counters-management/make-install-counter-request/make-install-counter-request.component';
+import { ManageCounterInstallRequestsComponent } from './components/admin/manage-counter-install-requests/manage-counter-install-requests.component';
 
 const routes: Routes = [
   {
@@ -61,6 +62,10 @@ const routes: Routes = [
   {
     path: 'admin/system-administration',
     component: BackupsManagementComponent,
+  },
+  {
+    path: 'admin/counters-installation-requests',
+    component: ManageCounterInstallRequestsComponent,
   },
 ];
 

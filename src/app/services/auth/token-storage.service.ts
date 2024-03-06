@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { User } from '../../models/auth/user.model';
 import { JwtHelperService } from '@auth0/angular-jwt';
-import { JwtClaims } from '../../utils/JwtTokenClaims';
+import { JwtClaims } from '../../utils/jwt-token-claims';
 
 const TOKEN_KEY = 'auth-token';
 const REFRESHTOKEN_KEY = 'auth-refreshtoken';

@@ -26,4 +26,18 @@ export class CounterInstallationService extends ODataServiceBase<CounterInstalla
     .fetch()
     .pipe(this.mapODataEntities);
   }
+
+  getAllRequests(): Observable<CounterInstallationRequest[]> {
+    return this.ODataService.entities()
+    .query((q) => {
+        q.expand('organization');
+      }
+    )
+    .fetch()
+    .pipe(this.mapODataEntities);
+  }
+
+  updateInstallRequest(id: string, updatedRequest: CounterInstallationRequest): Observable<CounterInstallationRequest> {
+    return this.ODataService.update(id, updatedRequest).pipe(this.mapODataEntity);
+  }
 }

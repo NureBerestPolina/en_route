@@ -43,6 +43,7 @@ import { AddProducerComponent } from './components/organizations/add-producer/ad
 import { CountersListComponent } from './components/organizations/counters-management/counters-list/counters-list.component';
 import { MakeInstallCounterRequestComponent } from './components/organizations/counters-management/make-install-counter-request/make-install-counter-request.component';
 import { BackupsManagementComponent } from './components/sysadmin/backups-management/backups-management.component';
+import { ManageCounterInstallRequestsComponent } from './components/admin/manage-counter-install-requests/manage-counter-install-requests.component';
 
 
 registerLocaleData(localeUk);
@@ -64,7 +65,8 @@ registerLocaleData(localeUk);
     AddProducerComponent,
     CountersListComponent,
     MakeInstallCounterRequestComponent,
-    BackupsManagementComponent
+    BackupsManagementComponent,
+    ManageCounterInstallRequestsComponent
   ],
   // ...
 
@@ -95,7 +97,7 @@ registerLocaleData(localeUk);
       })
     ],
   providers: [ AuthInterceptorProviders,
-    { provide: LOCALE_ID, useValue: 'en-US' }],
+    { provide: LOCALE_ID, useValue: 'uk-UA' }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
