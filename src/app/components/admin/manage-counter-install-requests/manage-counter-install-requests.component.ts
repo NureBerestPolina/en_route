@@ -95,7 +95,7 @@ export class ManageCounterInstallRequestsComponent implements OnInit, OnDestroy 
     this.approveRequestSubscription = this.counterDeinstallService.fulfillDeinstallRequest(requestId).subscribe({
       next: (response) => {
         setTimeout(() => {
-          this.router.navigateByUrl('/admin/fridge-installation-requests');
+          this.router.navigateByUrl('/admin/counter-installation-requests');
         }, 3000);
       },
     });

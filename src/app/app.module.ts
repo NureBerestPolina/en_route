@@ -44,6 +44,8 @@ import { CountersListComponent } from './components/organizations/counters-manag
 import { MakeInstallCounterRequestComponent } from './components/organizations/counters-management/make-install-counter-request/make-install-counter-request.component';
 import { BackupsManagementComponent } from './components/sysadmin/backups-management/backups-management.component';
 import { ManageCounterInstallRequestsComponent } from './components/admin/manage-counter-install-requests/manage-counter-install-requests.component';
+import { AddCounterUriComponent } from './components/admin/add-counter-uri/add-counter-uri.component';
+import { ManageOrganizationsComponent } from './components/admin/manage-organizations/manage-organizations.component';
 
 
 registerLocaleData(localeUk);
@@ -66,7 +68,9 @@ registerLocaleData(localeUk);
     CountersListComponent,
     MakeInstallCounterRequestComponent,
     BackupsManagementComponent,
-    ManageCounterInstallRequestsComponent
+    ManageCounterInstallRequestsComponent,
+    AddCounterUriComponent,
+    ManageOrganizationsComponent
   ],
   // ...
 

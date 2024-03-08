@@ -13,6 +13,8 @@ import { BackupsManagementComponent } from './components/sysadmin/backups-manage
 import { CountersListComponent } from './components/organizations/counters-management/counters-list/counters-list.component';
 import { MakeInstallCounterRequestComponent } from './components/organizations/counters-management/make-install-counter-request/make-install-counter-request.component';
 import { ManageCounterInstallRequestsComponent } from './components/admin/manage-counter-install-requests/manage-counter-install-requests.component';
+import { AddCounterUriComponent } from './components/admin/add-counter-uri/add-counter-uri.component';
+import { ManageOrganizationsComponent } from './components/admin/manage-organizations/manage-organizations.component';
 
 const routes: Routes = [
   {
@@ -66,6 +68,14 @@ const routes: Routes = [
   {
     path: 'admin/counters-installation-requests',
     component: ManageCounterInstallRequestsComponent,
+  },
+  {
+    path: 'admin/counter-installation-requests/:requestId/add-uri',
+    component: AddCounterUriComponent,
+  },
+  {
+    path: 'admin/organizations-management',
+    component: ManageOrganizationsComponent,
   },
 ];
 
