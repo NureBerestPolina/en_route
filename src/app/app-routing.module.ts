@@ -15,6 +15,7 @@ import { MakeInstallCounterRequestComponent } from './components/organizations/c
 import { ManageCounterInstallRequestsComponent } from './components/admin/manage-counter-install-requests/manage-counter-install-requests.component';
 import { AddCounterUriComponent } from './components/admin/add-counter-uri/add-counter-uri.component';
 import { ManageOrganizationsComponent } from './components/admin/manage-organizations/manage-organizations.component';
+import { SystemStatisticsComponent } from './components/admin/system-statistics/system-statistics.component';
 
 const routes: Routes = [
   {
@@ -72,6 +73,10 @@ const routes: Routes = [
   {
     path: 'admin/counter-installation-requests/:requestId/add-uri',
     component: AddCounterUriComponent,
+  },
+  {
+    path: 'admin/billing/statistics',
+    component: SystemStatisticsComponent,
   },
   {
     path: 'admin/organizations-management',
