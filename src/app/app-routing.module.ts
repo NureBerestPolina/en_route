@@ -16,6 +16,7 @@ import { ManageCounterInstallRequestsComponent } from './components/admin/manage
 import { AddCounterUriComponent } from './components/admin/add-counter-uri/add-counter-uri.component';
 import { ManageOrganizationsComponent } from './components/admin/manage-organizations/manage-organizations.component';
 import { SystemStatisticsComponent } from './components/admin/system-statistics/system-statistics.component';
+import { StatisticsComponent } from './components/organizations/statistics/statistics.component';
 
 const routes: Routes = [
   {
@@ -57,6 +58,10 @@ const routes: Routes = [
   {
     path: 'shopManagement/:organizationId/edit-good/:goodId',
     component: EditGoodComponent,
+  },
+  {
+    path: 'shopManagement/:organizationId/counters/statistics',
+    component: StatisticsComponent,
   },
   {
     path: 'shopManagement/:organizationId/add-producer',

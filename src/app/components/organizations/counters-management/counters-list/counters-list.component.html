@@ -4,6 +4,7 @@
 
     <div class="d-flex justify-content-end mt-4">
         <a [routerLink]="['/shopManagement', organizationId, 'make-counter-installation-request']" class="btn btn-success" i18n>Make request for a Pickup counter installation</a>
+        <a [routerLink]="['/shopManagement', organizationId, 'counters', 'statistics']" class="ml-2 btn btn-outline-warning" i18n>Get counters statistics</a>
     </div>
 
     <ng-container *ngIf="counters$ | async as counters">
