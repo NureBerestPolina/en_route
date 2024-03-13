@@ -27,7 +27,7 @@
                         <td>{{counter.cellWithTempControlCount}}</td>
                         <td class="text-center">
                             <div class="d-inline-block">
-                            <a [routerLink]="['/shopManagement', organizationId, 'edit-counter-info', counter.id]" class="btn btn-warning mx-2" i18n>Manage counter</a>
+                            <a class="btn btn-warning mx-2" pButton pRipple (click)="onUninstall(counter.id)" i18n>Refuse from using the counter</a>
                             </div>
                         </td>
                     </ng-container>

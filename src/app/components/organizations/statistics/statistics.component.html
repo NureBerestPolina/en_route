@@ -16,7 +16,7 @@
         <td>{{ stat.pickupCounterId }}<br>{{ stat.pickupCounterAddress }}<br>({{ stat.pickupCounterPlacementDescription }})</td>
         <td>{{ stat.ordersCount }}</td>
         <td>{{ stat.totalSalesSum | currency }}</td>
-        <td *ngIf="stat.mostPopularGood">{{ stat.mostPopularGood?.name }},<br>{{ stat.mostPopularGood?.description }}</td>
+        <td *ngIf="stat.mostPopularGood">{{ stat.mostPopularGood.name }},<br>{{ stat.mostPopularGood.description }}</td>
       </tr>
     </tbody>
   </table>

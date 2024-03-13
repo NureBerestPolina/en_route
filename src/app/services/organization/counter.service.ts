@@ -27,4 +27,8 @@ export class CounterService extends ODataServiceBase<PickupCounter> {
     .fetch()
     .pipe(this.mapODataEntities);
   }
+
+  deinstallCounter(id: string) : Observable<PickupCounter>{
+    return this.ODataService.destroy(id); 
+  }
 }
