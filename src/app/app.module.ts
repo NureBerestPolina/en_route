@@ -48,6 +48,7 @@ import { AddCounterUriComponent } from './components/admin/add-counter-uri/add-c
 import { ManageOrganizationsComponent } from './components/admin/manage-organizations/manage-organizations.component';
 import { SystemStatisticsComponent } from './components/admin/system-statistics/system-statistics.component';
 import { StatisticsComponent } from './components/organizations/statistics/statistics.component';
+import { ManageTechinspectionRequestsComponent } from './components/admin/manage-techinspection-requests/manage-techinspection-requests.component';
 
 
 registerLocaleData(localeUk);
@@ -74,7 +75,8 @@ registerLocaleData(localeUk);
     AddCounterUriComponent,
     ManageOrganizationsComponent,
     SystemStatisticsComponent,
-    StatisticsComponent
+    StatisticsComponent,
+    ManageTechinspectionRequestsComponent
   ],
   // ...
 

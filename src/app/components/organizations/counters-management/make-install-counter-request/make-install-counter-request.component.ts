@@ -48,7 +48,7 @@ export class MakeInstallCounterRequestComponent {
   }
 
   onFormSubmit(): void {
-    if (this.model.cellCount >= this.model.cellWithTempControlCount) {
+    if (this.model.cellCount <= this.model.cellWithTempControlCount) {
       this.showSuccess();
 
       this.counterInstallService.create(this.model).subscribe({

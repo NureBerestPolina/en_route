@@ -17,6 +17,7 @@ import { AddCounterUriComponent } from './components/admin/add-counter-uri/add-c
 import { ManageOrganizationsComponent } from './components/admin/manage-organizations/manage-organizations.component';
 import { SystemStatisticsComponent } from './components/admin/system-statistics/system-statistics.component';
 import { StatisticsComponent } from './components/organizations/statistics/statistics.component';
+import { ManageTechinspectionRequestsComponent } from './components/admin/manage-techinspection-requests/manage-techinspection-requests.component';
 
 const routes: Routes = [
   {
@@ -87,6 +88,10 @@ const routes: Routes = [
     path: 'admin/organizations-management',
     component: ManageOrganizationsComponent,
   },
+  {
+    path: 'admin/techinspection-requests-management',
+    component: ManageTechinspectionRequestsComponent,
+  }
 ];
 
 @NgModule({

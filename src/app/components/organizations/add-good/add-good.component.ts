@@ -52,6 +52,8 @@ export class AddGoodComponent {
   }
 
   onFormSubmit(): void {
+      this.model.amountInStock = Number(this.model.amountInStock);
+      this.model.price = Number(this.model.price);
       this.goodService.create(this.model).subscribe({
         next: (response) => {
           console.log('Successful good creating!', this.model);

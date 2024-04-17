@@ -75,7 +75,7 @@
                 </thead>
                 <tbody>
                     <tr *ngFor="let request of requestsDeinstall">
-                        <td>{{request.counter.ownerOrganization}}</td>
+                        <td>{{request.counter.ownerOrganization.name}}</td>
                         <td>{{request.counter.address}},<br>{{request.counter.placementDescription}}</td>
                         <td>{{request.requestedTime | date: 'dd.MM.yyyy' }}</td>
                         <td>
