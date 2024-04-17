@@ -2,6 +2,420 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en-US" datatype="plaintext" original="ng2.template">
     <body>
+      <trans-unit id="8350317279934200609" datatype="html">
+        <source>Create a unique link for the IoT pickup counter device (to connect it to the system)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/admin/add-counter-uri/add-counter-uri.component.html</context>
+          <context context-type="linenumber">4,6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1678679909756061645" datatype="html">
+        <source>URI:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/admin/add-counter-uri/add-counter-uri.component.html</context>
+          <context context-type="linenumber">13,14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7580682505205760093" datatype="html">
+        <source> URI is required. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/admin/add-counter-uri/add-counter-uri.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1102934150908318011" datatype="html">
+        <source> URI should have at least 5 characters. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/admin/add-counter-uri/add-counter-uri.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2639213442160634818" datatype="html">
+        <source> URI maximum size is 300 characters. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/admin/add-counter-uri/add-counter-uri.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2304895960316685972" datatype="html">
+        <source>Mark pickup counter installation request as fulfilled</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/admin/add-counter-uri/add-counter-uri.component.html</context>
+          <context context-type="linenumber">31,32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7359876279647585654" datatype="html">
+        <source>The link is already taken! Make another one!</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/admin/add-counter-uri/add-counter-uri.component.ts</context>
+          <context context-type="linenumber">65</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1202179193772007418" datatype="html">
+        <source>Requests about Pickup counters Installation:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/admin/manage-counter-install-requests/manage-counter-install-requests.component.html</context>
+          <context context-type="linenumber">4,6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1826215573205981970" datatype="html">
+        <source>Company</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/admin/manage-counter-install-requests/manage-counter-install-requests.component.html</context>
+          <context context-type="linenumber">11,12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6304432362546770951" datatype="html">
+        <source>Address</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/admin/manage-counter-install-requests/manage-counter-install-requests.component.html</context>
+          <context context-type="linenumber">12,13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/organizations/counters-management/counters-list/counters-list.component.html</context>
+          <context context-type="linenumber">14,15</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/organizations/counters-management/counters-list/counters-list.component.html</context>
+          <context context-type="linenumber">50,51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4662774993363931268" datatype="html">
+        <source>Location description</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/admin/manage-counter-install-requests/manage-counter-install-requests.component.html</context>
+          <context context-type="linenumber">13,14</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/organizations/counters-management/counters-list/counters-list.component.html</context>
+          <context context-type="linenumber">15,16</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/organizations/counters-management/counters-list/counters-list.component.html</context>
+          <context context-type="linenumber">51,52</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1282763553016519427" datatype="html">
+        <source>Cell count</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/admin/manage-counter-install-requests/manage-counter-install-requests.component.html</context>
+          <context context-type="linenumber">14,15</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/organizations/counters-management/counters-list/counters-list.component.html</context>
+          <context context-type="linenumber">16,17</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/organizations/counters-management/counters-list/counters-list.component.html</context>
+          <context context-type="linenumber">52,53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3676175773359119222" datatype="html">
+        <source>Cell with Temperature control count</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/admin/manage-counter-install-requests/manage-counter-install-requests.component.html</context>
+          <context context-type="linenumber">15,16</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/organizations/counters-management/counters-list/counters-list.component.html</context>
+          <context context-type="linenumber">17,18</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/organizations/counters-management/counters-list/counters-list.component.html</context>
+          <context context-type="linenumber">53,54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5736998174800408999" datatype="html">
+        <source>Created on</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/admin/manage-counter-install-requests/manage-counter-install-requests.component.html</context>
+          <context context-type="linenumber">16,17</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/admin/manage-counter-install-requests/manage-counter-install-requests.component.html</context>
+          <context context-type="linenumber">72,73</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/admin/manage-techinspection-requests/manage-techinspection-requests.component.html</context>
+          <context context-type="linenumber">15,16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2856119920698568280" datatype="html">
+        <source>Answered on</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/admin/manage-counter-install-requests/manage-counter-install-requests.component.html</context>
+          <context context-type="linenumber">17,18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8028606890634050029" datatype="html">
+        <source>Request status</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/admin/manage-counter-install-requests/manage-counter-install-requests.component.html</context>
+          <context context-type="linenumber">18,19</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/organizations/counters-management/counters-list/counters-list.component.html</context>
+          <context context-type="linenumber">55,56</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="609836197036822519" datatype="html">
+        <source>Approve installation</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/admin/manage-counter-install-requests/manage-counter-install-requests.component.html</context>
+          <context context-type="linenumber">36,37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1043889970846094345" datatype="html">
+        <source>Reject request</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/admin/manage-counter-install-requests/manage-counter-install-requests.component.html</context>
+          <context context-type="linenumber">39,40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4371959651815760461" datatype="html">
+        <source>Add counter to the system</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/admin/manage-counter-install-requests/manage-counter-install-requests.component.html</context>
+          <context context-type="linenumber">44,45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6266953522541424168" datatype="html">
+        <source> There are no requests about Pickup counters installation yet. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/admin/manage-counter-install-requests/manage-counter-install-requests.component.html</context>
+          <context context-type="linenumber">56</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2204742988535209284" datatype="html">
+        <source>Requests about Pickup counters Deinstallation:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/admin/manage-counter-install-requests/manage-counter-install-requests.component.html</context>
+          <context context-type="linenumber">63,65</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3097127683731519787" datatype="html">
+        <source>Owner organization</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/admin/manage-counter-install-requests/manage-counter-install-requests.component.html</context>
+          <context context-type="linenumber">70,71</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9206640718344660224" datatype="html">
+        <source>Placement description</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/admin/manage-counter-install-requests/manage-counter-install-requests.component.html</context>
+          <context context-type="linenumber">71,72</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/organizations/counters-management/make-install-counter-request/make-install-counter-request.component.html</context>
+          <context context-type="linenumber">30,31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1364003674423734246" datatype="html">
+        <source>Confirm deinstallation</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/admin/manage-counter-install-requests/manage-counter-install-requests.component.html</context>
+          <context context-type="linenumber">85,86</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2932031851396436533" datatype="html">
+        <source> There are no requests about Pickup counters deinstallation yet. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/admin/manage-counter-install-requests/manage-counter-install-requests.component.html</context>
+          <context context-type="linenumber">96</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1704707458869497466" datatype="html">
+        <source>Request approved!</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/admin/manage-counter-install-requests/manage-counter-install-requests.component.ts</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4698835830427783663" datatype="html">
+        <source>Request rejected!</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/admin/manage-counter-install-requests/manage-counter-install-requests.component.ts</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3711731275323837157" datatype="html">
+        <source>Request status changed to &quot;fulfilled&quot;!</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/admin/manage-counter-install-requests/manage-counter-install-requests.component.ts</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/admin/manage-techinspection-requests/manage-techinspection-requests.component.ts</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2544872619763259778" datatype="html">
+        <source>The organizations registered in the En Route system:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/admin/manage-organizations/manage-organizations.component.html</context>
+          <context context-type="linenumber">4,6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3076687427621376223" datatype="html">
+        <source>Organization</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/admin/manage-organizations/manage-organizations.component.html</context>
+          <context context-type="linenumber">11,12</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/admin/system-statistics/system-statistics.component.html</context>
+          <context context-type="linenumber">8,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4902817035128594900" datatype="html">
+        <source>Description</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/admin/manage-organizations/manage-organizations.component.html</context>
+          <context context-type="linenumber">12,13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/organizations/assortment/assortment.component.html</context>
+          <context context-type="linenumber">21,22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6352396891898821670" datatype="html">
+        <source>Registered on</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/admin/manage-organizations/manage-organizations.component.html</context>
+          <context context-type="linenumber">13,14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1540281436321485610" datatype="html">
+        <source>Manager</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/admin/manage-organizations/manage-organizations.component.html</context>
+          <context context-type="linenumber">14,15</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/admin/system-statistics/system-statistics.component.html</context>
+          <context context-type="linenumber">9,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2460825146042664538" datatype="html">
+        <source>Unblock organization</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/admin/manage-organizations/manage-organizations.component.html</context>
+          <context context-type="linenumber">28,29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8561580740566999375" datatype="html">
+        <source>Block organization</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/admin/manage-organizations/manage-organizations.component.html</context>
+          <context context-type="linenumber">32,33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7193629844975460328" datatype="html">
+        <source> There are no organizations registered yet. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/admin/manage-organizations/manage-organizations.component.html</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7276769008277430941" datatype="html">
+        <source>The organization is blocked, no services are available!</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/admin/manage-organizations/manage-organizations.component.ts</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4651437178743178163" datatype="html">
+        <source>The organization is unblocked, all the services are available!</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/admin/manage-organizations/manage-organizations.component.ts</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="33510670167170921" datatype="html">
+        <source>Requests about Tech-inspection of the Pickup Counters:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/admin/manage-techinspection-requests/manage-techinspection-requests.component.html</context>
+          <context context-type="linenumber">4,6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9045790650551839820" datatype="html">
+        <source>Cell id</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/admin/manage-techinspection-requests/manage-techinspection-requests.component.html</context>
+          <context context-type="linenumber">11,12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="189449919861511045" datatype="html">
+        <source>Temperature inside<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/>when request was created</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/admin/manage-techinspection-requests/manage-techinspection-requests.component.html</context>
+          <context context-type="linenumber">12,13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2316689295296665407" datatype="html">
+        <source>Doors opened count<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/>when request was created</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/admin/manage-techinspection-requests/manage-techinspection-requests.component.html</context>
+          <context context-type="linenumber">13,14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5611592591303869712" datatype="html">
+        <source>Status</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/admin/manage-techinspection-requests/manage-techinspection-requests.component.html</context>
+          <context context-type="linenumber">14,15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2519179246451592808" datatype="html">
+        <source>Mark as fulfilled</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/admin/manage-techinspection-requests/manage-techinspection-requests.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5886205309598874554" datatype="html">
+        <source> There are no requests about tech-inspection yet. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/admin/manage-techinspection-requests/manage-techinspection-requests.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3458747018305387592" datatype="html">
+        <source>Billing statistics of registered organizations (for this month):</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/admin/system-statistics/system-statistics.component.html</context>
+          <context context-type="linenumber">3,5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5224457537029874881" datatype="html">
+        <source>Pickup Counters used</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/admin/system-statistics/system-statistics.component.html</context>
+          <context context-type="linenumber">10,11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8642196861319430957" datatype="html">
+        <source>Monthly orders count</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/admin/system-statistics/system-statistics.component.html</context>
+          <context context-type="linenumber">11,12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5097608007437356874" datatype="html">
+        <source>Monthly orders total </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/admin/system-statistics/system-statistics.component.html</context>
+          <context context-type="linenumber">12,13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6397160567727201946" datatype="html">
+        <source>Subscription cost</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/admin/system-statistics/system-statistics.component.html</context>
+          <context context-type="linenumber">13,14</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="8940590235206725346" datatype="html">
         <source>You are blocked</source>
         <context-group purpose="location">
@@ -104,22 +518,22 @@
           <context context-type="linenumber">19</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="4039751171626980386" datatype="html">
-        <source>Manage fridge installation requests</source>
+      <trans-unit id="4184507412976686778" datatype="html">
+        <source>Manage Pickup counters installation requests</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/common/header/header.component.html</context>
           <context context-type="linenumber">22,23</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="7003894283160063599" datatype="html">
-        <source>Manage food suppliers</source>
+      <trans-unit id="5012609093886121845" datatype="html">
+        <source>Manage organizations</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/common/header/header.component.html</context>
           <context context-type="linenumber">24,25</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="5322874710909959179" datatype="html">
-        <source>Manage companies</source>
+      <trans-unit id="2547753230479794664" datatype="html">
+        <source>Manage billing</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/common/header/header.component.html</context>
           <context context-type="linenumber">26,27</context>
@@ -471,13 +885,6 @@
           <context context-type="linenumber">20,21</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="4902817035128594900" datatype="html">
-        <source>Description</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/organizations/assortment/assortment.component.html</context>
-          <context context-type="linenumber">21,22</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="611945097728960188" datatype="html">
         <source>Price (UAH)</source>
         <context-group purpose="location">
@@ -534,73 +941,29 @@
           <context context-type="linenumber">6,7</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6304432362546770951" datatype="html">
-        <source>Address</source>
+      <trans-unit id="3543966233134975020" datatype="html">
+        <source>Get counters statistics</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/organizations/counters-management/counters-list/counters-list.component.html</context>
-          <context context-type="linenumber">13,14</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/organizations/counters-management/counters-list/counters-list.component.html</context>
-          <context context-type="linenumber">49,50</context>
+          <context context-type="linenumber">7,8</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="4662774993363931268" datatype="html">
-        <source>Location description</source>
+      <trans-unit id="3534471499532644326" datatype="html">
+        <source>Refuse from using the counter</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/organizations/counters-management/counters-list/counters-list.component.html</context>
-          <context context-type="linenumber">14,15</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/organizations/counters-management/counters-list/counters-list.component.html</context>
-          <context context-type="linenumber">50,51</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="1282763553016519427" datatype="html">
-        <source>Cell count</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/organizations/counters-management/counters-list/counters-list.component.html</context>
-          <context context-type="linenumber">15,16</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/organizations/counters-management/counters-list/counters-list.component.html</context>
-          <context context-type="linenumber">51,52</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="3676175773359119222" datatype="html">
-        <source>Cell with Temperature control count</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/organizations/counters-management/counters-list/counters-list.component.html</context>
-          <context context-type="linenumber">16,17</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/organizations/counters-management/counters-list/counters-list.component.html</context>
-          <context context-type="linenumber">52,53</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="2524936951964459160" datatype="html">
-        <source>Manage counter</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/organizations/counters-management/counters-list/counters-list.component.html</context>
-          <context context-type="linenumber">29,30</context>
+          <context context-type="linenumber">30,31</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4987152760389186145" datatype="html">
         <source>My requests for Pickup counters installation:</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/organizations/counters-management/counters-list/counters-list.component.html</context>
-          <context context-type="linenumber">42,44</context>
+          <context context-type="linenumber">43,45</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2275532246801944011" datatype="html">
         <source>Creation date</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/organizations/counters-management/counters-list/counters-list.component.html</context>
-          <context context-type="linenumber">53,54</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="8028606890634050029" datatype="html">
-        <source>Request status</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/organizations/counters-management/counters-list/counters-list.component.html</context>
           <context context-type="linenumber">54,55</context>
@@ -610,7 +973,14 @@
         <source> You have no Pickup counters installation requests yet. Make one! </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/organizations/counters-management/counters-list/counters-list.component.html</context>
-          <context context-type="linenumber">74</context>
+          <context context-type="linenumber">75</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5840988050561980819" datatype="html">
+        <source>The counter will be removed at the earliest convenience. No more orders available</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/organizations/counters-management/counters-list/counters-list.component.ts</context>
+          <context context-type="linenumber">90</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6144466245380109141" datatype="html">
@@ -639,13 +1009,6 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/organizations/counters-management/make-install-counter-request/make-install-counter-request.component.html</context>
           <context context-type="linenumber">21</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="9206640718344660224" datatype="html">
-        <source>Placement description</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/organizations/counters-management/make-install-counter-request/make-install-counter-request.component.html</context>
-          <context context-type="linenumber">30,31</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1703897656242230262" datatype="html">
@@ -733,11 +1096,46 @@
           <context context-type="linenumber">120,121</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="8249994735962289227" datatype="html">
-        <source>Delete the request</source>
+      <trans-unit id="7206160020125917369" datatype="html">
+        <source>Delete good</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/organizations/edit-good/edit-good.component.html</context>
           <context context-type="linenumber">121,122</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6728463185150245663" datatype="html">
+        <source>Pickup counters usage statistics:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/organizations/statistics/statistics.component.html</context>
+          <context context-type="linenumber">3,5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1450679182557944567" datatype="html">
+        <source>Pickup Counter</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/organizations/statistics/statistics.component.html</context>
+          <context context-type="linenumber">8,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6748916644908838423" datatype="html">
+        <source>Orders in the Counter</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/organizations/statistics/statistics.component.html</context>
+          <context context-type="linenumber">9,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4871890320026743853" datatype="html">
+        <source>Sales Revenue in the Counter</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/organizations/statistics/statistics.component.html</context>
+          <context context-type="linenumber">10,11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4868588784742747608" datatype="html">
+        <source>The Most Popular Good in the Counter</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/organizations/statistics/statistics.component.html</context>
+          <context context-type="linenumber">11,12</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6664378763976318689" datatype="html">
